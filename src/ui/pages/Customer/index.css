@@ -1,0 +1,25 @@
+.customer {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer > table {
+    width: 99%;
+    border: 1px solid;
+    border-spacing: 0px;
+    font-size: 16px;
+}
+.customer > table > thead {
+    background-color: #345;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+}
+
+.customer td {
+    padding: 10px;
+}
+.customer tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
